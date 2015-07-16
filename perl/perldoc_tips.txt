@@ -1,0 +1,3 @@
+2014-03-11: perldoc -q command shown ' as  to get rid of the problem, use following:
+#perldoc -t -q command   #-t Display docs using plain text converter, instead of nroff. This may be faster, but it probably wonâlook as nice.
+

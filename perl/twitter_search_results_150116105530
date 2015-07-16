@@ -1,0 +1,1961 @@
+$VAR1 = {
+          'token_type' => 'bearer',
+          'access_token' => 'AAAAAAAAAAAAAAAAAAAAAMXWdgAAAAAAHkNeBd51H02mD9yP50H%2Fu%2F2kSe8%3DU1L16ArJIJmMPmHhMNePlmGOcsksAxnboOQzQs5sfKOrxTxk8T'
+        };
+search response : [$VAR1 = {
+          'search_metadata' => {
+                                 'max_id_str' => '556187984383729665',
+                                 'count' => 15,
+                                 'next_results' => '?max_id=556183709632978946&q=perl&include_entities=1',
+                                 'completed_in' => '0.059',
+                                 'since_id' => 0,
+                                 'max_id' => '556187984383729665',
+                                 'query' => 'perl',
+                                 'since_id_str' => '0',
+                                 'refresh_url' => '?since_id=556187984383729665&q=perl&include_entities=1'
+                               },
+          'statuses' => [
+                          {
+                            'id' => '556187984383729665',
+                            'in_reply_to_status_id' => undef,
+                            'place' => undef,
+                            'lang' => 'en',
+                            'retweeted' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                            'entities' => {
+                                            'user_mentions' => [],
+                                            'symbols' => [],
+                                            'urls' => [],
+                                            'hashtags' => []
+                                          },
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'text' => 'That thing where you help someone with a perl script you wrote 10 yr ago that Keep Just Working',
+                            'contributors' => undef,
+                            'user' => {
+                                        'statuses_count' => 2366,
+                                        'listed_count' => 16,
+                                        'profile_sidebar_border_color' => '181A1E',
+                                        'favourites_count' => 111,
+                                        'utc_offset' => -21600,
+                                        'profile_link_color' => '2FC2EF',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'url' => undef,
+                                        'notifications' => undef,
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 588,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'id' => 17853571,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/455919439762841600/kFYZ6KGu_normal.jpeg',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 256,
+                                        'profile_location' => undef,
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/455919439762841600/kFYZ6KGu_normal.jpeg',
+                                        'follow_request_sent' => undef,
+                                        'location' => 'Montreal',
+                                        'lang' => 'en',
+                                        'profile_background_color' => '1A1B1F',
+                                        'profile_use_background_image' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                                        'profile_text_color' => '666666',
+                                        'description' => "Jack of all trades, master of some. Un geek parmi d'autres. Tweets en fran\x{e7}ais and sometimes in english.",
+                                        'id_str' => '17853571',
+                                        'created_at' => 'Wed Dec 03 23:55:21 +0000 2008',
+                                        'time_zone' => 'Central Time (US & Canada)',
+                                        'screen_name' => 'bencaron',
+                                        'profile_sidebar_fill_color' => '252429',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme9/bg.gif',
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme9/bg.gif',
+                                        'name' => 'bencaron',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'id_str' => '556187984383729665',
+                            'created_at' => 'Fri Jan 16 20:35:23 +0000 2015',
+                            'in_reply_to_screen_name' => undef,
+                            'geo' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'metadata' => {
+                                            'iso_language_code' => 'en',
+                                            'result_type' => 'recent'
+                                          },
+                            'in_reply_to_user_id_str' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 0,
+                            'source' => '<a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter for Mac</a>',
+                            'in_reply_to_user_id' => undef,
+                            'favorite_count' => 0,
+                            'coordinates' => undef
+                          },
+                          {
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'coordinates' => undef,
+                            'in_reply_to_user_id' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://dlvr.it" rel="nofollow">dlvr.it</a>',
+                            'retweet_count' => 0,
+                            'in_reply_to_user_id_str' => undef,
+                            'metadata' => {
+                                            'iso_language_code' => 'en',
+                                            'result_type' => 'recent'
+                                          },
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'user_mentions' => [],
+                                            'hashtags' => [],
+                                            'urls' => [
+                                                        {
+                                                          'indices' => [
+                                                                         78,
+                                                                         100
+                                                                       ],
+                                                          'expanded_url' => 'http://dlvr.it/87Lmtg',
+                                                          'display_url' => 'dlvr.it/87Lmtg',
+                                                          'url' => 'http://t.co/gkU3KPJUmS'
+                                                        }
+                                                      ],
+                                            'symbols' => []
+                                          },
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'lang' => 'en',
+                            'place' => undef,
+                            'in_reply_to_screen_name' => undef,
+                            'id_str' => '556187670917832705',
+                            'created_at' => 'Fri Jan 16 20:34:08 +0000 2015',
+                            'user' => {
+                                        'profile_background_color' => 'C0DEED',
+                                        'follow_request_sent' => undef,
+                                        'location' => '',
+                                        'lang' => 'id',
+                                        'description' => '',
+                                        'created_at' => 'Mon Feb 25 07:40:56 +0000 2013',
+                                        'id_str' => '1217567664',
+                                        'time_zone' => 'Kolkata',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'screen_name' => 'NicholsonOldrid',
+                                        'name' => 'NicholsonOldridge',
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 106,
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/3334863046/c030a30192b6c74fefa420e79fbefb35_normal.jpeg',
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 1,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'id' => 1217567664,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/3334863046/c030a30192b6c74fefa420e79fbefb35_normal.jpeg',
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'statuses_count' => 61996,
+                                        'listed_count' => 1,
+                                        'utc_offset' => 19800,
+                                        'profile_link_color' => '0084B4',
+                                        'favourites_count' => 0,
+                                        'notifications' => undef,
+                                        'url' => undef,
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'}
+                                      },
+                            'contributors' => undef,
+                            'text' => 'Splayed staple perl plait training - yours slam in a go-ahead website: ZRGVGo http://t.co/gkU3KPJUmS',
+                            'id' => '556187670917832705',
+                            'in_reply_to_status_id' => undef
+                          },
+                          {
+                            'contributors' => undef,
+                            'user' => {
+                                        'url' => 'http://t.co/dYyLjRpUpd',
+                                        'notifications' => undef,
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_sidebar_border_color' => 'FFFFFF',
+                                        'listed_count' => 7,
+                                        'statuses_count' => 6469,
+                                        'profile_link_color' => '009999',
+                                        'utc_offset' => -18000,
+                                        'favourites_count' => 1,
+                                        'id' => 1345339826,
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/1345339826/1398466830',
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/453552780750254080/9Mri6ofG_normal.png',
+                                        'following' => undef,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'entities' => {
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'url' => 'http://t.co/dYyLjRpUpd',
+                                                                                 'display_url' => 'trimarc.org',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'expanded_url' => 'http://www.trimarc.org'
+                                                                               }
+                                                                             ]
+                                                                 },
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 277,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/453552780750254080/9Mri6ofG_normal.png',
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 375,
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_sidebar_fill_color' => '000000',
+                                        'screen_name' => 'TRIMARCTraffic',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'name' => 'TRIMARC ',
+                                        'profile_background_image_url' => 'http://pbs.twimg.com/profile_background_images/378800000010480797/dcf0c19587ec6db556eb32bf6b1fed5a.png',
+                                        'profile_background_image_url_https' => 'https://pbs.twimg.com/profile_background_images/378800000010480797/dcf0c19587ec6db556eb32bf6b1fed5a.png',
+                                        'profile_background_color' => '131516',
+                                        'lang' => 'en',
+                                        'follow_request_sent' => undef,
+                                        'location' => '',
+                                        'created_at' => 'Thu Apr 11 21:31:06 +0000 2013',
+                                        'id_str' => '1345339826',
+                                        'time_zone' => 'Eastern Time (US & Canada)',
+                                        'description' => 'TRIMARC reminds all drivers it is against the law in Kentucky to Text and Drive. TRIMARC is funded by KYTC and the FHWA.',
+                                        'profile_text_color' => '000000',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'text' => '49315 : East I-264 at Mile Marker 18.0 in Louisville in Jefferson county. At Breckenridge Ln.. http://t.co/1pIKEPuUoH',
+                            'in_reply_to_screen_name' => undef,
+                            'id_str' => '556186930799337473',
+                            'created_at' => 'Fri Jan 16 20:31:12 +0000 2015',
+                            'entities' => {
+                                            'user_mentions' => [],
+                                            'hashtags' => [],
+                                            'urls' => [
+                                                        {
+                                                          'url' => 'http://t.co/1pIKEPuUoH',
+                                                          'display_url' => 'dlvr.it/87LhnY',
+                                                          'expanded_url' => 'http://dlvr.it/87LhnY',
+                                                          'indices' => [
+                                                                         95,
+                                                                         117
+                                                                       ]
+                                                        }
+                                                      ],
+                                            'symbols' => []
+                                          },
+                            'place' => undef,
+                            'lang' => 'en',
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'in_reply_to_status_id' => undef,
+                            'id' => '556186930799337473',
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 0,
+                            'source' => '<a href="http://dlvr.it" rel="nofollow">dlvr.it</a>',
+                            'coordinates' => undef,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'in_reply_to_user_id' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'metadata' => {
+                                            'iso_language_code' => 'en',
+                                            'result_type' => 'recent'
+                                          },
+                            'in_reply_to_user_id_str' => undef
+                          },
+                          {
+                            'favorite_count' => 0,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'in_reply_to_user_id' => undef,
+                            'coordinates' => undef,
+                            'source' => '<a href="http://dlvr.it" rel="nofollow">dlvr.it</a>',
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 0,
+                            'in_reply_to_user_id_str' => undef,
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'en'
+                                          },
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'id_str' => '556186926856679424',
+                            'created_at' => 'Fri Jan 16 20:31:11 +0000 2015',
+                            'in_reply_to_screen_name' => undef,
+                            'contributors' => undef,
+                            'user' => {
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 375,
+                                        'profile_location' => undef,
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/453552780750254080/9Mri6ofG_normal.png',
+                                        'lang' => 'en',
+                                        'location' => '',
+                                        'follow_request_sent' => undef,
+                                        'profile_background_color' => '131516',
+                                        'profile_text_color' => '000000',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'id_str' => '1345339826',
+                                        'created_at' => 'Thu Apr 11 21:31:06 +0000 2013',
+                                        'time_zone' => 'Eastern Time (US & Canada)',
+                                        'description' => 'TRIMARC reminds all drivers it is against the law in Kentucky to Text and Drive. TRIMARC is funded by KYTC and the FHWA.',
+                                        'screen_name' => 'TRIMARCTraffic',
+                                        'profile_sidebar_fill_color' => '000000',
+                                        'profile_background_image_url_https' => 'https://pbs.twimg.com/profile_background_images/378800000010480797/dcf0c19587ec6db556eb32bf6b1fed5a.png',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'name' => 'TRIMARC ',
+                                        'profile_background_image_url' => 'http://pbs.twimg.com/profile_background_images/378800000010480797/dcf0c19587ec6db556eb32bf6b1fed5a.png',
+                                        'listed_count' => 7,
+                                        'statuses_count' => 6469,
+                                        'profile_sidebar_border_color' => 'FFFFFF',
+                                        'favourites_count' => 1,
+                                        'profile_link_color' => '009999',
+                                        'utc_offset' => -18000,
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'url' => 'http://t.co/dYyLjRpUpd',
+                                        'notifications' => undef,
+                                        'entities' => {
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'expanded_url' => 'http://www.trimarc.org',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'url' => 'http://t.co/dYyLjRpUpd',
+                                                                                 'display_url' => 'trimarc.org'
+                                                                               }
+                                                                             ]
+                                                                 },
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 277,
+                                        'following' => undef,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/1345339826/1398466830',
+                                        'id' => 1345339826,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/453552780750254080/9Mri6ofG_normal.png'
+                                      },
+                            'text' => '49314 : East I-264 at Mile Marker 19.0 in Louisville in Jefferson county. Before shelbyville Rd. http://t.co/9KdHHcLdmV',
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'hashtags' => [],
+                                            'urls' => [
+                                                        {
+                                                          'indices' => [
+                                                                         97,
+                                                                         119
+                                                                       ],
+                                                          'expanded_url' => 'http://dlvr.it/87Lppv',
+                                                          'url' => 'http://t.co/9KdHHcLdmV',
+                                                          'display_url' => 'dlvr.it/87Lppv'
+                                                        }
+                                                      ],
+                                            'symbols' => [],
+                                            'user_mentions' => []
+                                          },
+                            'lang' => 'en',
+                            'place' => undef,
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'in_reply_to_status_id' => undef,
+                            'id' => '556186926856679424'
+                          },
+                          {
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'ja'
+                                          },
+                            'in_reply_to_user_id_str' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'coordinates' => undef,
+                            'favorite_count' => 0,
+                            'in_reply_to_user_id' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 0,
+                            'source' => '<a href="http://twtr.jp" rel="nofollow">Keitai Web</a>',
+                            'id' => '556186890638852096',
+                            'in_reply_to_status_id' => undef,
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'user_mentions' => [],
+                                            'urls' => [],
+                                            'symbols' => [],
+                                            'hashtags' => [
+                                                            {
+                                                              'text' => 'Perl',
+                                                              'indices' => [
+                                                                             0,
+                                                                             5
+                                                                           ]
+                                                            }
+                                                          ]
+                                          },
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'lang' => 'ja',
+                            'place' => undef,
+                            'created_at' => 'Fri Jan 16 20:31:02 +0000 2015',
+                            'id_str' => '556186890638852096',
+                            'in_reply_to_screen_name' => undef,
+                            'user' => {
+                                        'favourites_count' => 165,
+                                        'utc_offset' => 32400,
+                                        'profile_link_color' => '0084B4',
+                                        'statuses_count' => 14465,
+                                        'listed_count' => 11,
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'url' => undef,
+                                        'notifications' => undef,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 1997,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/778721769/IMG_0901_normal.PNG',
+                                        'id' => 126924448,
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 1113,
+                                        'profile_location' => undef,
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/778721769/IMG_0901_normal.PNG',
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'description' => "\x{798f}\x{5cf6}\x{770c}\x{3068}\x{5927}\x{5206}\x{770c}\x{3068}\x{7fa4}\x{99ac}\x{770c}\x{3092}\x{6545}\x{90f7}\x{3068}\x{601d}\x{3063}\x{3066}\x{3044}\x{307e}\x{3042}\x{3059}",
+                                        'id_str' => '126924448',
+                                        'created_at' => 'Sat Mar 27 12:53:30 +0000 2010',
+                                        'time_zone' => 'Tokyo',
+                                        'follow_request_sent' => undef,
+                                        'location' => "\x{6771}\x{4eac}\x{90fd}",
+                                        'lang' => 'ja',
+                                        'profile_background_color' => 'C0DEED',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'name' => "\x{3080}\x{3089}(\x{3080}\x{3089}\x{3057}\x{3087}\x{3093})",
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'screen_name' => 'verf_mura',
+                                        'profile_sidebar_fill_color' => 'DDEEF6'
+                                      },
+                            'contributors' => undef,
+                            'text' => "#Perl \x{30d9}\x{30b9}\x{30c8}\x{30d7}\x{30e9}\x{30af}\x{30c6}\x{30a3}\x{30b9}\x{304b}\x{3089}\x{629c}\x{7c8b}\x{300c}\x{6574}\x{6570}\x{4ee5}\x{5916}\x{306e}\x{30b9}\x{30ea}\x{30fc}\x{30d7}\x{306e}\x{305f}\x{3081}\x{306b}\x{751f}\x{3067} select \x{3092}\x{4f7f}\x{7528}\x{3057}\x{306a}\x{3044}\x{300d}"
+                          },
+                          {
+                            'favorite_count' => 0,
+                            'in_reply_to_user_id' => 452547684,
+                            'coordinates' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
+                            'retweet_count' => 0,
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'en'
+                                          },
+                            'in_reply_to_user_id_str' => '452547684',
+                            'geo' => undef,
+                            'in_reply_to_status_id_str' => '556185355884322817',
+                            'in_reply_to_screen_name' => 'wolfmapper',
+                            'created_at' => 'Fri Jan 16 20:29:59 +0000 2015',
+                            'id_str' => '556186624208302081',
+                            'text' => '@wolfmapper I got an endorsement for Perl. I\'ve created exactly one Perl script in my life, around 2001.',
+                            'user' => {
+                                        'statuses_count' => 6260,
+                                        'listed_count' => 321,
+                                        'profile_sidebar_border_color' => 'C6E2EE',
+                                        'favourites_count' => 1085,
+                                        'utc_offset' => 3600,
+                                        'profile_link_color' => '1F98C7',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'notifications' => undef,
+                                        'url' => 'http://t.co/jhw4nmUGse',
+                                        'friends_count' => 268,
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         },
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'display_url' => 'randommarkers.blogspot.com',
+                                                                                 'url' => 'http://t.co/jhw4nmUGse',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'expanded_url' => 'http://randommarkers.blogspot.com/'
+                                                                               }
+                                                                             ]
+                                                                 }
+                                                      },
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/17394561/1409156739',
+                                        'id' => 17394561,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/541772600133697536/EukG1pWh_normal.jpeg',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 5539,
+                                        'profile_location' => undef,
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/541772600133697536/EukG1pWh_normal.jpeg',
+                                        'follow_request_sent' => undef,
+                                        'location' => 'Mountain View, CA',
+                                        'lang' => 'en',
+                                        'profile_background_color' => 'C6E2EE',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '663B12',
+                                        'description' => 'Staff Developer Advocate, Google',
+                                        'id_str' => '17394561',
+                                        'created_at' => 'Fri Nov 14 20:18:50 +0000 2008',
+                                        'time_zone' => 'Vienna',
+                                        'screen_name' => 'ManoMarks',
+                                        'profile_sidebar_fill_color' => 'DAECF4',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme2/bg.gif',
+                                        'name' => 'ManoMarks',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme2/bg.gif'
+                                      },
+                            'contributors' => undef,
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'place' => undef,
+                            'lang' => 'en',
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'hashtags' => [],
+                                            'urls' => [],
+                                            'symbols' => [],
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'id' => 452547684,
+                                                                   'screen_name' => 'wolfmapper',
+                                                                   'id_str' => '452547684',
+                                                                   'name' => 'Amy Smith',
+                                                                   'indices' => [
+                                                                                  0,
+                                                                                  11
+                                                                                ]
+                                                                 }
+                                                               ]
+                                          },
+                            'in_reply_to_status_id' => '556185355884322817',
+                            'id' => '556186624208302081'
+                          },
+                          {
+                            'in_reply_to_status_id' => undef,
+                            'id' => '556185685464731649',
+                            'id_str' => '556185685464731649',
+                            'in_reply_to_screen_name' => undef,
+                            'created_at' => 'Fri Jan 16 20:26:15 +0000 2015',
+                            'text' => 'http://t.co/IvghxRQnLJ : Learning Perl
+
+Learning Perlbrian d. foy (Author), Randal L. Schwartz (Author), Tom Ph... http://t.co/BBfKTnOXUe',
+                            'contributors' => undef,
+                            'user' => {
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 4,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'id' => 2752044841,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/502430867428347904/MXJNcWOt_normal.jpeg',
+                                        'statuses_count' => 291560,
+                                        'listed_count' => 14,
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'favourites_count' => 0,
+                                        'utc_offset' => undef,
+                                        'profile_link_color' => '0084B4',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'notifications' => undef,
+                                        'url' => undef,
+                                        'follow_request_sent' => undef,
+                                        'location' => 'Web',
+                                        'lang' => 'en-gb',
+                                        'profile_background_color' => 'C0DEED',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'description' => 'Ebooks',
+                                        'time_zone' => undef,
+                                        'id_str' => '2752044841',
+                                        'created_at' => 'Thu Aug 21 12:21:28 +0000 2014',
+                                        'screen_name' => 'EBooks099',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'name' => 'EBooks Online',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 315,
+                                        'profile_location' => undef,
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/502430867428347904/MXJNcWOt_normal.jpeg'
+                                      },
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'place' => undef,
+                            'lang' => 'en',
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'media' => [
+                                                         {
+                                                           'indices' => [
+                                                                          115,
+                                                                          137
+                                                                        ],
+                                                           'expanded_url' => 'http://twitter.com/EBooks099/status/556185685464731649/photo/1',
+                                                           'media_url_https' => 'https://pbs.twimg.com/media/B7f37x-IEAEZLmy.jpg',
+                                                           'id' => '556185685401800705',
+                                                           'url' => 'http://t.co/BBfKTnOXUe',
+                                                           'display_url' => 'pic.twitter.com/BBfKTnOXUe',
+                                                           'media_url' => 'http://pbs.twimg.com/media/B7f37x-IEAEZLmy.jpg',
+                                                           'id_str' => '556185685401800705',
+                                                           'sizes' => {
+                                                                        'large' => {
+                                                                                     'resize' => 'fit',
+                                                                                     'h' => 550,
+                                                                                     'w' => 421
+                                                                                   },
+                                                                        'medium' => {
+                                                                                      'resize' => 'fit',
+                                                                                      'h' => 550,
+                                                                                      'w' => 421
+                                                                                    },
+                                                                        'thumb' => {
+                                                                                     'h' => 150,
+                                                                                     'resize' => 'crop',
+                                                                                     'w' => 150
+                                                                                   },
+                                                                        'small' => {
+                                                                                     'resize' => 'fit',
+                                                                                     'h' => 444,
+                                                                                     'w' => 340
+                                                                                   }
+                                                                      },
+                                                           'type' => 'photo'
+                                                         }
+                                                       ],
+                                            'user_mentions' => [],
+                                            'urls' => [
+                                                        {
+                                                          'expanded_url' => 'http://amzn.to/1AMIKjA',
+                                                          'indices' => [
+                                                                         0,
+                                                                         22
+                                                                       ],
+                                                          'url' => 'http://t.co/IvghxRQnLJ',
+                                                          'display_url' => 'amzn.to/1AMIKjA'
+                                                        }
+                                                      ],
+                                            'symbols' => [],
+                                            'hashtags' => []
+                                          },
+                            'in_reply_to_user_id_str' => undef,
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'en'
+                                          },
+                            'geo' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'coordinates' => undef,
+                            'in_reply_to_user_id' => undef,
+                            'source' => '<a href="http://ifttt.com" rel="nofollow">IFTTT</a>',
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 0
+                          },
+                          {
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'metadata' => {
+                                            'iso_language_code' => 'en',
+                                            'result_type' => 'recent'
+                                          },
+                            'in_reply_to_user_id_str' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
+                            'retweet_count' => 0,
+                            'coordinates' => undef,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'in_reply_to_user_id' => undef,
+                            'id' => '556185495513075713',
+                            'in_reply_to_status_id' => undef,
+                            'entities' => {
+                                            'user_mentions' => [],
+                                            'urls' => [
+                                                        {
+                                                          'display_url' => "fosdem.org/2015/schedule/\x{2026}",
+                                                          'url' => 'https://t.co/9Y7GeoUJKi',
+                                                          'expanded_url' => 'https://fosdem.org/2015/schedule/track/perl/',
+                                                          'indices' => [
+                                                                         32,
+                                                                         55
+                                                                       ]
+                                                        }
+                                                      ],
+                                            'hashtags' => [],
+                                            'symbols' => []
+                                          },
+                            'place' => undef,
+                            'lang' => 'en',
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'contributors' => undef,
+                            'user' => {
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'listed_count' => 37,
+                                        'statuses_count' => 734,
+                                        'profile_link_color' => '0084B4',
+                                        'utc_offset' => 3600,
+                                        'favourites_count' => 0,
+                                        'url' => 'http://t.co/I3dWgNtYJg',
+                                        'notifications' => undef,
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'following' => undef,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'friends_count' => 62,
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         },
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'expanded_url' => 'http://www.jnthn.net/',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'url' => 'http://t.co/I3dWgNtYJg',
+                                                                                 'display_url' => 'jnthn.net'
+                                                                               }
+                                                                             ]
+                                                                 }
+                                                      },
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'id' => 104834477,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/631508398/me2_normal.jpg',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 552,
+                                        'profile_location' => undef,
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/631508398/me2_normal.jpg',
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_color' => 'C0DEED',
+                                        'lang' => 'en',
+                                        'follow_request_sent' => undef,
+                                        'location' => 'Lund, Sweden',
+                                        'id_str' => '104834477',
+                                        'created_at' => 'Thu Jan 14 15:02:04 +0000 2010',
+                                        'time_zone' => 'Bratislava',
+                                        'description' => 'Perl 6 compiler hacking, C#/.Net developing, world traveling, beer drinking guy who likes to live in European countries that start with an S.',
+                                        'profile_text_color' => '333333',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'screen_name' => 'jnthnwrthngtn',
+                                        'name' => 'Jonathan Worthington',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png'
+                                      },
+                            'text' => 'I\'ll be speaking at FOSDEM! \\o/ https://t.co/9Y7GeoUJKi',
+                            'created_at' => 'Fri Jan 16 20:25:30 +0000 2015',
+                            'id_str' => '556185495513075713',
+                            'in_reply_to_screen_name' => undef
+                          },
+                          {
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'in_reply_to_user_id' => undef,
+                            'coordinates' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 13,
+                            'source' => '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'en'
+                                          },
+                            'in_reply_to_user_id_str' => undef,
+                            'geo' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'id_str' => '556184686444048384',
+                            'in_reply_to_screen_name' => undef,
+                            'created_at' => 'Fri Jan 16 20:22:17 +0000 2015',
+                            'text' => 'RT @the_nordy: Perl and I for best friends - we sleep in the same bed at sleepovers http://t.co/tHGPQNVoeh',
+                            'retweeted_status' => {
+                                                    'retweet_count' => 13,
+                                                    'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'source' => '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
+                                                    'in_reply_to_user_id' => undef,
+                                                    'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'favorite_count' => 11,
+                                                    'coordinates' => undef,
+                                                    'geo' => undef,
+                                                    'in_reply_to_status_id_str' => undef,
+                                                    'metadata' => {
+                                                                    'result_type' => 'recent',
+                                                                    'iso_language_code' => 'en'
+                                                                  },
+                                                    'in_reply_to_user_id_str' => undef,
+                                                    'text' => 'Perl and I for best friends - we sleep in the same bed at sleepovers http://t.co/tHGPQNVoeh',
+                                                    'contributors' => undef,
+                                                    'user' => {
+                                                                'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_background_tile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                                                'followers_count' => 327,
+                                                                'profile_location' => undef,
+                                                                'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/546879667266129921/BBodWEc9_normal.jpeg',
+                                                                'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_text_color' => '333333',
+                                                                'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                                                'created_at' => 'Wed Feb 27 00:40:13 +0000 2013',
+                                                                'id_str' => '1223298631',
+                                                                'time_zone' => 'Eastern Time (US & Canada)',
+                                                                'description' => 'flecksing',
+                                                                'lang' => 'en',
+                                                                'location' => '',
+                                                                'follow_request_sent' => undef,
+                                                                'profile_background_color' => '63EDED',
+                                                                'profile_background_image_url_https' => 'https://pbs.twimg.com/profile_background_images/802114958/e884abf7a8add05ea8c46d8c9b8a9efb.jpeg',
+                                                                'profile_background_image_url' => 'http://pbs.twimg.com/profile_background_images/802114958/e884abf7a8add05ea8c46d8c9b8a9efb.jpeg',
+                                                                'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'name' => '/\\/\\/',
+                                                                'screen_name' => 'the_nordy',
+                                                                'profile_sidebar_fill_color' => 'DDEEF6',
+                                                                'favourites_count' => 893,
+                                                                'profile_link_color' => '010B0F',
+                                                                'utc_offset' => -18000,
+                                                                'listed_count' => 0,
+                                                                'statuses_count' => 5491,
+                                                                'profile_sidebar_border_color' => 'FFFFFF',
+                                                                'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'url' => undef,
+                                                                'notifications' => undef,
+                                                                'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'entities' => {
+                                                                                'description' => {
+                                                                                                   'urls' => []
+                                                                                                 }
+                                                                              },
+                                                                'friends_count' => 400,
+                                                                'following' => undef,
+                                                                'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_image_url' => 'http://pbs.twimg.com/profile_images/546879667266129921/BBodWEc9_normal.jpeg',
+                                                                'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/1223298631/1417489242',
+                                                                'id' => 1223298631
+                                                              },
+                                                    'id_str' => '556125104678006784',
+                                                    'created_at' => 'Fri Jan 16 16:25:31 +0000 2015',
+                                                    'in_reply_to_screen_name' => undef,
+                                                    'lang' => 'en',
+                                                    'place' => undef,
+                                                    'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'entities' => {
+                                                                    'media' => [
+                                                                                 {
+                                                                                   'type' => 'photo',
+                                                                                   'id_str' => '556125090727747584',
+                                                                                   'sizes' => {
+                                                                                                'small' => {
+                                                                                                             'w' => 340,
+                                                                                                             'h' => 453,
+                                                                                                             'resize' => 'fit'
+                                                                                                           },
+                                                                                                'thumb' => {
+                                                                                                             'w' => 150,
+                                                                                                             'h' => 150,
+                                                                                                             'resize' => 'crop'
+                                                                                                           },
+                                                                                                'medium' => {
+                                                                                                              'resize' => 'fit',
+                                                                                                              'h' => 800,
+                                                                                                              'w' => 600
+                                                                                                            },
+                                                                                                'large' => {
+                                                                                                             'w' => 768,
+                                                                                                             'h' => 1024,
+                                                                                                             'resize' => 'fit'
+                                                                                                           }
+                                                                                              },
+                                                                                   'media_url' => 'http://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg',
+                                                                                   'id' => '556125090727747584',
+                                                                                   'display_url' => 'pic.twitter.com/tHGPQNVoeh',
+                                                                                   'url' => 'http://t.co/tHGPQNVoeh',
+                                                                                   'expanded_url' => 'http://twitter.com/the_nordy/status/556125104678006784/photo/1',
+                                                                                   'media_url_https' => 'https://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg',
+                                                                                   'indices' => [
+                                                                                                  69,
+                                                                                                  91
+                                                                                                ]
+                                                                                 }
+                                                                               ],
+                                                                    'user_mentions' => [],
+                                                                    'urls' => [],
+                                                                    'hashtags' => [],
+                                                                    'symbols' => []
+                                                                  },
+                                                    'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'in_reply_to_status_id' => undef,
+                                                    'id' => '556125104678006784'
+                                                  },
+                            'contributors' => undef,
+                            'user' => {
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/551987286166876160/yJk0tdos_normal.jpeg',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 177,
+                                        'screen_name' => 'Marvelous_Migz',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'name' => 'Ken Block',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'lang' => 'en',
+                                        'follow_request_sent' => undef,
+                                        'location' => 'Miami',
+                                        'profile_background_color' => 'C0DEED',
+                                        'profile_text_color' => '333333',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'created_at' => 'Fri Feb 14 19:38:57 +0000 2014',
+                                        'id_str' => '2343674019',
+                                        'time_zone' => undef,
+                                        'description' => '18',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'notifications' => undef,
+                                        'url' => undef,
+                                        'listed_count' => 0,
+                                        'statuses_count' => 376,
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'favourites_count' => 360,
+                                        'profile_link_color' => '0084B4',
+                                        'utc_offset' => undef,
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/2343674019/1420439000',
+                                        'id' => 2343674019,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/551987286166876160/yJk0tdos_normal.jpeg',
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 256,
+                                        'following' => undef,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'lang' => 'en',
+                            'place' => undef,
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'urls' => [],
+                                            'hashtags' => [],
+                                            'symbols' => [],
+                                            'media' => [
+                                                         {
+                                                           'source_user_id' => 1223298631,
+                                                           'id' => '556125090727747584',
+                                                           'url' => 'http://t.co/tHGPQNVoeh',
+                                                           'display_url' => 'pic.twitter.com/tHGPQNVoeh',
+                                                           'source_user_id_str' => '1223298631',
+                                                           'expanded_url' => 'http://twitter.com/the_nordy/status/556125104678006784/photo/1',
+                                                           'media_url_https' => 'https://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg',
+                                                           'indices' => [
+                                                                          84,
+                                                                          106
+                                                                        ],
+                                                           'source_status_id' => '556125104678006784',
+                                                           'type' => 'photo',
+                                                           'id_str' => '556125090727747584',
+                                                           'source_status_id_str' => '556125104678006784',
+                                                           'sizes' => {
+                                                                        'large' => {
+                                                                                     'w' => 768,
+                                                                                     'resize' => 'fit',
+                                                                                     'h' => 1024
+                                                                                   },
+                                                                        'thumb' => {
+                                                                                     'w' => 150,
+                                                                                     'resize' => 'crop',
+                                                                                     'h' => 150
+                                                                                   },
+                                                                        'medium' => {
+                                                                                      'w' => 600,
+                                                                                      'resize' => 'fit',
+                                                                                      'h' => 800
+                                                                                    },
+                                                                        'small' => {
+                                                                                     'resize' => 'fit',
+                                                                                     'h' => 453,
+                                                                                     'w' => 340
+                                                                                   }
+                                                                      },
+                                                           'media_url' => 'http://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg'
+                                                         }
+                                                       ],
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'id' => 1223298631,
+                                                                   'screen_name' => 'the_nordy',
+                                                                   'name' => '/\\/\\/',
+                                                                   'id_str' => '1223298631',
+                                                                   'indices' => [
+                                                                                  3,
+                                                                                  13
+                                                                                ]
+                                                                 }
+                                                               ]
+                                          },
+                            'in_reply_to_status_id' => undef,
+                            'id' => '556184686444048384'
+                          },
+                          {
+                            'entities' => {
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'screen_name' => 'the_nordy',
+                                                                   'id' => 1223298631,
+                                                                   'indices' => [
+                                                                                  3,
+                                                                                  13
+                                                                                ],
+                                                                   'name' => '/\\/\\/',
+                                                                   'id_str' => '1223298631'
+                                                                 }
+                                                               ],
+                                            'media' => [
+                                                         {
+                                                           'media_url' => 'http://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg',
+                                                           'sizes' => {
+                                                                        'small' => {
+                                                                                     'h' => 453,
+                                                                                     'resize' => 'fit',
+                                                                                     'w' => 340
+                                                                                   },
+                                                                        'medium' => {
+                                                                                      'w' => 600,
+                                                                                      'h' => 800,
+                                                                                      'resize' => 'fit'
+                                                                                    },
+                                                                        'thumb' => {
+                                                                                     'h' => 150,
+                                                                                     'resize' => 'crop',
+                                                                                     'w' => 150
+                                                                                   },
+                                                                        'large' => {
+                                                                                     'h' => 1024,
+                                                                                     'resize' => 'fit',
+                                                                                     'w' => 768
+                                                                                   }
+                                                                      },
+                                                           'source_status_id_str' => '556125104678006784',
+                                                           'id_str' => '556125090727747584',
+                                                           'type' => 'photo',
+                                                           'source_status_id' => '556125104678006784',
+                                                           'indices' => [
+                                                                          84,
+                                                                          106
+                                                                        ],
+                                                           'expanded_url' => 'http://twitter.com/the_nordy/status/556125104678006784/photo/1',
+                                                           'media_url_https' => 'https://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg',
+                                                           'source_user_id_str' => '1223298631',
+                                                           'display_url' => 'pic.twitter.com/tHGPQNVoeh',
+                                                           'url' => 'http://t.co/tHGPQNVoeh',
+                                                           'source_user_id' => 1223298631,
+                                                           'id' => '556125090727747584'
+                                                         }
+                                                       ],
+                                            'hashtags' => [],
+                                            'urls' => [],
+                                            'symbols' => []
+                                          },
+                            'lang' => 'en',
+                            'place' => undef,
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'user' => {
+                                        'favourites_count' => 792,
+                                        'utc_offset' => undef,
+                                        'profile_link_color' => '0084B4',
+                                        'statuses_count' => 440,
+                                        'listed_count' => 1,
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'url' => undef,
+                                        'notifications' => undef,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 97,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/551979959971893248/knEN7zon_normal.jpeg',
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/2544146794/1399942670',
+                                        'id' => 2544146794,
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 98,
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/551979959971893248/knEN7zon_normal.jpeg',
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'description' => "\x{2022}Chelsea F.C\x{2022}USMNT\x{2022}",
+                                        'time_zone' => undef,
+                                        'id_str' => '2544146794',
+                                        'created_at' => 'Tue May 13 00:55:23 +0000 2014',
+                                        'follow_request_sent' => undef,
+                                        'location' => 'Hell I think ',
+                                        'lang' => 'en',
+                                        'profile_background_color' => 'C0DEED',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'name' => 'Luka Modric ',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'screen_name' => 'czerdoug',
+                                        'profile_sidebar_fill_color' => 'DDEEF6'
+                                      },
+                            'contributors' => undef,
+                            'text' => 'RT @the_nordy: Perl and I for best friends - we sleep in the same bed at sleepovers http://t.co/tHGPQNVoeh',
+                            'retweeted_status' => {
+                                                    'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'source' => '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
+                                                    'retweet_count' => 13,
+                                                    'favorite_count' => 11,
+                                                    'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'coordinates' => undef,
+                                                    'in_reply_to_user_id' => undef,
+                                                    'geo' => undef,
+                                                    'in_reply_to_status_id_str' => undef,
+                                                    'in_reply_to_user_id_str' => undef,
+                                                    'metadata' => {
+                                                                    'result_type' => 'recent',
+                                                                    'iso_language_code' => 'en'
+                                                                  },
+                                                    'place' => undef,
+                                                    'lang' => 'en',
+                                                    'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'entities' => {
+                                                                    'media' => [
+                                                                                 {
+                                                                                   'id' => '556125090727747584',
+                                                                                   'url' => 'http://t.co/tHGPQNVoeh',
+                                                                                   'display_url' => 'pic.twitter.com/tHGPQNVoeh',
+                                                                                   'expanded_url' => 'http://twitter.com/the_nordy/status/556125104678006784/photo/1',
+                                                                                   'media_url_https' => 'https://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg',
+                                                                                   'indices' => [
+                                                                                                  69,
+                                                                                                  91
+                                                                                                ],
+                                                                                   'type' => 'photo',
+                                                                                   'id_str' => '556125090727747584',
+                                                                                   'sizes' => {
+                                                                                                'medium' => {
+                                                                                                              'w' => 600,
+                                                                                                              'h' => 800,
+                                                                                                              'resize' => 'fit'
+                                                                                                            },
+                                                                                                'thumb' => {
+                                                                                                             'resize' => 'crop',
+                                                                                                             'h' => 150,
+                                                                                                             'w' => 150
+                                                                                                           },
+                                                                                                'large' => {
+                                                                                                             'w' => 768,
+                                                                                                             'h' => 1024,
+                                                                                                             'resize' => 'fit'
+                                                                                                           },
+                                                                                                'small' => {
+                                                                                                             'w' => 340,
+                                                                                                             'h' => 453,
+                                                                                                             'resize' => 'fit'
+                                                                                                           }
+                                                                                              },
+                                                                                   'media_url' => 'http://pbs.twimg.com/media/B7fA0tOCYAAlH_8.jpg'
+                                                                                 }
+                                                                               ],
+                                                                    'user_mentions' => [],
+                                                                    'symbols' => [],
+                                                                    'urls' => [],
+                                                                    'hashtags' => []
+                                                                  },
+                                                    'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                    'text' => 'Perl and I for best friends - we sleep in the same bed at sleepovers http://t.co/tHGPQNVoeh',
+                                                    'user' => {
+                                                                'profile_text_color' => '333333',
+                                                                'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                                                'time_zone' => 'Eastern Time (US & Canada)',
+                                                                'created_at' => 'Wed Feb 27 00:40:13 +0000 2013',
+                                                                'id_str' => '1223298631',
+                                                                'description' => 'flecksing',
+                                                                'lang' => 'en',
+                                                                'follow_request_sent' => undef,
+                                                                'location' => '',
+                                                                'profile_background_color' => '63EDED',
+                                                                'profile_background_image_url_https' => 'https://pbs.twimg.com/profile_background_images/802114958/e884abf7a8add05ea8c46d8c9b8a9efb.jpeg',
+                                                                'name' => '/\\/\\/',
+                                                                'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_background_image_url' => 'http://pbs.twimg.com/profile_background_images/802114958/e884abf7a8add05ea8c46d8c9b8a9efb.jpeg',
+                                                                'screen_name' => 'the_nordy',
+                                                                'profile_sidebar_fill_color' => 'DDEEF6',
+                                                                'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_background_tile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                                                'followers_count' => 327,
+                                                                'profile_location' => undef,
+                                                                'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/546879667266129921/BBodWEc9_normal.jpeg',
+                                                                'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'friends_count' => 400,
+                                                                'entities' => {
+                                                                                'description' => {
+                                                                                                   'urls' => []
+                                                                                                 }
+                                                                              },
+                                                                'following' => undef,
+                                                                'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'profile_image_url' => 'http://pbs.twimg.com/profile_images/546879667266129921/BBodWEc9_normal.jpeg',
+                                                                'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/1223298631/1417489242',
+                                                                'id' => 1223298631,
+                                                                'favourites_count' => 893,
+                                                                'profile_link_color' => '010B0F',
+                                                                'utc_offset' => -18000,
+                                                                'listed_count' => 0,
+                                                                'statuses_count' => 5491,
+                                                                'profile_sidebar_border_color' => 'FFFFFF',
+                                                                'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                                                'url' => undef,
+                                                                'notifications' => undef
+                                                              },
+                                                    'contributors' => undef,
+                                                    'id_str' => '556125104678006784',
+                                                    'in_reply_to_screen_name' => undef,
+                                                    'created_at' => 'Fri Jan 16 16:25:31 +0000 2015',
+                                                    'id' => '556125104678006784',
+                                                    'in_reply_to_status_id' => undef
+                                                  },
+                            'id_str' => '556184661483741184',
+                            'created_at' => 'Fri Jan 16 20:22:11 +0000 2015',
+                            'in_reply_to_screen_name' => undef,
+                            'id' => '556184661483741184',
+                            'in_reply_to_status_id' => undef,
+                            'source' => '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 13,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'coordinates' => undef,
+                            'in_reply_to_user_id' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'in_reply_to_user_id_str' => undef,
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'en'
+                                          }
+                          },
+                          {
+                            'entities' => {
+                                            'urls' => [
+                                                        {
+                                                          'indices' => [
+                                                                         118,
+                                                                         140
+                                                                       ],
+                                                          'expanded_url' => 'http://goo.gl/WW1Hsl',
+                                                          'display_url' => 'goo.gl/WW1Hsl',
+                                                          'url' => 'http://t.co/vAy8leeh02'
+                                                        }
+                                                      ],
+                                            'hashtags' => [],
+                                            'symbols' => [],
+                                            'user_mentions' => []
+                                          },
+                            'lang' => 'ja',
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'place' => undef,
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'contributors' => undef,
+                            'user' => {
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'entities' => {
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'url' => 'http://t.co/u9pM4dN53m',
+                                                                                 'display_url' => 'my-server-navi.net',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'expanded_url' => 'http://www.my-server-navi.net/'
+                                                                               }
+                                                                             ]
+                                                                 },
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'friends_count' => 1939,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'id' => 1617070704,
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/378800000179854187/adee1d2d11940278686864012000665f_normal.jpeg',
+                                        'profile_sidebar_border_color' => 'C0DEED',
+                                        'statuses_count' => 69017,
+                                        'listed_count' => 1,
+                                        'utc_offset' => undef,
+                                        'profile_link_color' => '0084B4',
+                                        'favourites_count' => 0,
+                                        'url' => 'http://t.co/u9pM4dN53m',
+                                        'notifications' => undef,
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_background_color' => 'C0DEED',
+                                        'location' => '',
+                                        'follow_request_sent' => undef,
+                                        'lang' => 'ja',
+                                        'description' => "\x{30ec}\x{30f3}\x{30bf}\x{30eb}\x{30b5}\x{30fc}\x{30d0}\x{3084}\x{30b5}\x{30fc}\x{30d0}\x{30bb}\x{30ad}\x{30e5}\x{30ea}\x{30c6}\x{30a3}\x{3001}\x{30c9}\x{30e1}\x{30a4}\x{30f3}\x{7b49}\x{306e}\x{60c5}\x{5831}\x{3092}\x{3064}\x{3076}\x{3084}\x{304d}\x{307e}\x{3059}\x{3002}\x{76f8}\x{4e92}\x{30d5}\x{30a9}\x{30ed}\x{30fc}\x{6b53}\x{8fce}\x{ff01}",
+                                        'time_zone' => undef,
+                                        'id_str' => '1617070704',
+                                        'created_at' => 'Wed Jul 24 07:09:42 +0000 2013',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'screen_name' => 'myservernavi',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'name' => "\x{30ec}\x{30f3}\x{30bf}\x{30eb}\x{30b5}\x{30fc}\x{30d0}\x{30ca}\x{30d3}",
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme1/bg.png',
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 1888,
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/378800000179854187/adee1d2d11940278686864012000665f_normal.jpeg',
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'text' => "\x{300e}\x{30d8}\x{30c6}\x{30e0}\x{30eb} \x{306f}\x{3001}Perl\x{3001}Ruby\x{3001}Python\x{3001}PHP5\x{3001}MySQL5 \x{306b}\x{5bfe}\x{5fdc}\x{3002}\x{30de}\x{30eb}\x{30c1}\x{30c9}\x{30e1}\x{30a4}\x{30f3}\x{3001}\x{30de}\x{30eb}\x{30c1}\x{30c7}\x{30fc}\x{30bf}\x{30d9}\x{30fc}\x{30b9}\x{3001}\x{5171}\x{6709}SSL\x{3084}\x{3001}FlashMediaServer\x{3001}ColdFusion\x{3092}\x{642d}\x{8f09}\x{3002}WordPress\x{3001}XOOPS\x{306b}\x{3082}\x{5bfe}\x{5fdc}\x{3002} http://t.co/vAy8leeh02",
+                            'created_at' => 'Fri Jan 16 20:20:10 +0000 2015',
+                            'id_str' => '556184153951969281',
+                            'in_reply_to_screen_name' => undef,
+                            'id' => '556184153951969281',
+                            'in_reply_to_status_id' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://www.my-server-navi.net/" rel="nofollow">myservernaviBot</a>',
+                            'retweet_count' => 0,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'in_reply_to_user_id' => undef,
+                            'favorite_count' => 1,
+                            'coordinates' => undef,
+                            'in_reply_to_status_id_str' => undef,
+                            'geo' => undef,
+                            'in_reply_to_user_id_str' => undef,
+                            'metadata' => {
+                                            'iso_language_code' => 'ja',
+                                            'result_type' => 'recent'
+                                          }
+                          },
+                          {
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'in_reply_to_user_id' => 480747404,
+                            'coordinates' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
+                            'retweet_count' => 0,
+                            'in_reply_to_user_id_str' => '480747404',
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'en'
+                                          },
+                            'geo' => undef,
+                            'in_reply_to_status_id_str' => '556183133390114816',
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'lang' => 'en',
+                            'place' => undef,
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'symbols' => [],
+                                            'urls' => [
+                                                        {
+                                                          'url' => 'http://t.co/tj9rZJ6hzv',
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}",
+                                                          'indices' => [
+                                                                         44,
+                                                                         66
+                                                                       ],
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1511190'
+                                                        },
+                                                        {
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}",
+                                                          'url' => 'http://t.co/HK5clyAFso',
+                                                          'indices' => [
+                                                                         94,
+                                                                         116
+                                                                       ],
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1737891'
+                                                        }
+                                                      ],
+                                            'hashtags' => [
+                                                            {
+                                                              'indices' => [
+                                                                             117,
+                                                                             125
+                                                                           ],
+                                                              'text' => 'wcpawns'
+                                                            }
+                                                          ],
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'indices' => [
+                                                                                  0,
+                                                                                  15
+                                                                                ],
+                                                                   'name' => 'Jonathan Bryant',
+                                                                   'id_str' => '321939808',
+                                                                   'screen_name' => 'Berlin_Endgame',
+                                                                   'id' => 321939808
+                                                                 }
+                                                               ]
+                                          },
+                            'id_str' => '556184053716881409',
+                            'created_at' => 'Fri Jan 16 20:19:46 +0000 2015',
+                            'in_reply_to_screen_name' => 'FletchMK64',
+                            'text' => '@Berlin_Endgame 
+Anand-Kramnik 2008 game 7 
+http://t.co/tj9rZJ6hzv
+Carlsen-Anand 2013 game 8 
+http://t.co/HK5clyAFso
+#wcpawns',
+                            'contributors' => undef,
+                            'user' => {
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 123,
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'name' => 'Matt Fletcher',
+                                        'screen_name' => 'FletchMK64',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'description' => 'Dad of 3 girls (including twins).  Chess and water polo player.  Actuary and longevity consultant.  Views are my own.  Chess blog at:',
+                                        'created_at' => 'Wed Feb 01 21:08:30 +0000 2012',
+                                        'id_str' => '480747404',
+                                        'time_zone' => undef,
+                                        'follow_request_sent' => undef,
+                                        'location' => '',
+                                        'lang' => 'en',
+                                        'profile_background_color' => '709397',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'url' => 'http://t.co/N1u5JubXlQ',
+                                        'notifications' => undef,
+                                        'favourites_count' => 128,
+                                        'utc_offset' => undef,
+                                        'profile_link_color' => '00A0B0',
+                                        'statuses_count' => 1907,
+                                        'listed_count' => 4,
+                                        'profile_sidebar_border_color' => 'FFFFFF',
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/480747404/1354999709',
+                                        'id' => 480747404,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'friends_count' => 274,
+                                        'entities' => {
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'expanded_url' => 'http://learnfromtheamateurs.blogspot.co.uk/',
+                                                                                 'url' => 'http://t.co/N1u5JubXlQ',
+                                                                                 'display_url' => 'learnfromtheamateurs.blogspot.co.uk'
+                                                                               }
+                                                                             ]
+                                                                 },
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef
+                                      },
+                            'id' => '556184053716881409',
+                            'in_reply_to_status_id' => '556183133390114816'
+                          },
+                          {
+                            'in_reply_to_status_id' => '556183133390114816',
+                            'id' => '556183932589576192',
+                            'in_reply_to_screen_name' => 'FletchMK64',
+                            'id_str' => '556183932589576192',
+                            'created_at' => 'Fri Jan 16 20:19:17 +0000 2015',
+                            'contributors' => undef,
+                            'user' => {
+                                        'description' => 'Dad of 3 girls (including twins).  Chess and water polo player.  Actuary and longevity consultant.  Views are my own.  Chess blog at:',
+                                        'id_str' => '480747404',
+                                        'created_at' => 'Wed Feb 01 21:08:30 +0000 2012',
+                                        'time_zone' => undef,
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'profile_text_color' => '333333',
+                                        'profile_background_color' => '709397',
+                                        'follow_request_sent' => undef,
+                                        'location' => '',
+                                        'lang' => 'en',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'name' => 'Matt Fletcher',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'screen_name' => 'FletchMK64',
+                                        'followers_count' => 123,
+                                        'profile_location' => undef,
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'following' => undef,
+                                        'friends_count' => 274,
+                                        'entities' => {
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'expanded_url' => 'http://learnfromtheamateurs.blogspot.co.uk/',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'url' => 'http://t.co/N1u5JubXlQ',
+                                                                                 'display_url' => 'learnfromtheamateurs.blogspot.co.uk'
+                                                                               }
+                                                                             ]
+                                                                 },
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'id' => 480747404,
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/480747404/1354999709',
+                                        'utc_offset' => undef,
+                                        'profile_link_color' => '00A0B0',
+                                        'favourites_count' => 128,
+                                        'profile_sidebar_border_color' => 'FFFFFF',
+                                        'statuses_count' => 1907,
+                                        'listed_count' => 4,
+                                        'notifications' => undef,
+                                        'url' => 'http://t.co/N1u5JubXlQ',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'text' => '@Berlin_Endgame 
+Leko-Kramnik 2004 game 1 
+http://t.co/wGLEK9PMqJ
+Anand-Kramnik 2007 round 3
+http://t.co/KLxwgoF3ie
+#wcpawns',
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'name' => 'Jonathan Bryant',
+                                                                   'id_str' => '321939808',
+                                                                   'indices' => [
+                                                                                  0,
+                                                                                  15
+                                                                                ],
+                                                                   'id' => 321939808,
+                                                                   'screen_name' => 'Berlin_Endgame'
+                                                                 }
+                                                               ],
+                                            'urls' => [
+                                                        {
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1306138',
+                                                          'indices' => [
+                                                                         43,
+                                                                         65
+                                                                       ],
+                                                          'url' => 'http://t.co/wGLEK9PMqJ',
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}"
+                                                        },
+                                                        {
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1472881',
+                                                          'indices' => [
+                                                                         93,
+                                                                         115
+                                                                       ],
+                                                          'url' => 'http://t.co/KLxwgoF3ie',
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}"
+                                                        }
+                                                      ],
+                                            'hashtags' => [
+                                                            {
+                                                              'indices' => [
+                                                                             116,
+                                                                             124
+                                                                           ],
+                                                              'text' => 'wcpawns'
+                                                            }
+                                                          ],
+                                            'symbols' => []
+                                          },
+                            'lang' => 'sk',
+                            'place' => undef,
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'sk'
+                                          },
+                            'in_reply_to_user_id_str' => '480747404',
+                            'in_reply_to_status_id_str' => '556183133390114816',
+                            'geo' => undef,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'in_reply_to_user_id' => 480747404,
+                            'favorite_count' => 0,
+                            'coordinates' => undef,
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
+                            'retweet_count' => 0
+                          },
+                          {
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'source' => '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
+                            'retweet_count' => 0,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'coordinates' => undef,
+                            'in_reply_to_user_id' => 480747404,
+                            'geo' => undef,
+                            'in_reply_to_status_id_str' => '556183133390114816',
+                            'in_reply_to_user_id_str' => '480747404',
+                            'metadata' => {
+                                            'result_type' => 'recent',
+                                            'iso_language_code' => 'sk'
+                                          },
+                            'text' => '@Berlin_Endgame 
+Karpov-Kasparov 1987 game 7 
+http://t.co/81aklefVUB
+Karpov-Kasparov 1987 game 19 
+http://t.co/SObgsULB3l
+#wcpawns',
+                            'contributors' => undef,
+                            'user' => {
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/480747404/1354999709',
+                                        'id' => 480747404,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'friends_count' => 274,
+                                        'entities' => {
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         },
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'display_url' => 'learnfromtheamateurs.blogspot.co.uk',
+                                                                                 'url' => 'http://t.co/N1u5JubXlQ',
+                                                                                 'expanded_url' => 'http://learnfromtheamateurs.blogspot.co.uk/',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ]
+                                                                               }
+                                                                             ]
+                                                                 }
+                                                      },
+                                        'following' => undef,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'url' => 'http://t.co/N1u5JubXlQ',
+                                        'notifications' => undef,
+                                        'favourites_count' => 128,
+                                        'profile_link_color' => '00A0B0',
+                                        'utc_offset' => undef,
+                                        'listed_count' => 4,
+                                        'statuses_count' => 1907,
+                                        'profile_sidebar_border_color' => 'FFFFFF',
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'name' => 'Matt Fletcher',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'screen_name' => 'FletchMK64',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'profile_text_color' => '333333',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'created_at' => 'Wed Feb 01 21:08:30 +0000 2012',
+                                        'id_str' => '480747404',
+                                        'time_zone' => undef,
+                                        'description' => 'Dad of 3 girls (including twins).  Chess and water polo player.  Actuary and longevity consultant.  Views are my own.  Chess blog at:',
+                                        'lang' => 'en',
+                                        'location' => '',
+                                        'follow_request_sent' => undef,
+                                        'profile_background_color' => '709397',
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'followers_count' => 123,
+                                        'profile_location' => undef,
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'created_at' => 'Fri Jan 16 20:18:48 +0000 2015',
+                            'in_reply_to_screen_name' => 'FletchMK64',
+                            'id_str' => '556183812070473728',
+                            'lang' => 'sk',
+                            'place' => undef,
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'urls' => [
+                                                        {
+                                                          'indices' => [
+                                                                         46,
+                                                                         68
+                                                                       ],
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1421638',
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}",
+                                                          'url' => 'http://t.co/81aklefVUB'
+                                                        },
+                                                        {
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}",
+                                                          'url' => 'http://t.co/SObgsULB3l',
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1067251',
+                                                          'indices' => [
+                                                                         99,
+                                                                         121
+                                                                       ]
+                                                        }
+                                                      ],
+                                            'symbols' => [],
+                                            'hashtags' => [
+                                                            {
+                                                              'indices' => [
+                                                                             122,
+                                                                             130
+                                                                           ],
+                                                              'text' => 'wcpawns'
+                                                            }
+                                                          ],
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'id' => 321939808,
+                                                                   'screen_name' => 'Berlin_Endgame',
+                                                                   'id_str' => '321939808',
+                                                                   'name' => 'Jonathan Bryant',
+                                                                   'indices' => [
+                                                                                  0,
+                                                                                  15
+                                                                                ]
+                                                                 }
+                                                               ]
+                                          },
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'in_reply_to_status_id' => '556183133390114816',
+                            'id' => '556183812070473728'
+                          },
+                          {
+                            'in_reply_to_user_id_str' => '480747404',
+                            'metadata' => {
+                                            'iso_language_code' => 'sk',
+                                            'result_type' => 'recent'
+                                          },
+                            'in_reply_to_status_id_str' => '556183133390114816',
+                            'geo' => undef,
+                            'possibly_sensitive' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'favorite_count' => 0,
+                            'coordinates' => undef,
+                            'in_reply_to_user_id' => 480747404,
+                            'source' => '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
+                            'favorited' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'retweet_count' => 0,
+                            'in_reply_to_status_id' => '556183133390114816',
+                            'id' => '556183709632978947',
+                            'created_at' => 'Fri Jan 16 20:18:24 +0000 2015',
+                            'id_str' => '556183709632978947',
+                            'in_reply_to_screen_name' => 'FletchMK64',
+                            'user' => {
+                                        'protected' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_image_url_https' => 'https://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'contributors_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_tile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'verified' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_location' => undef,
+                                        'followers_count' => 123,
+                                        'is_translator' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url_https' => 'https://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'geo_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'profile_background_image_url' => 'http://abs.twimg.com/images/themes/theme6/bg.gif',
+                                        'name' => 'Matt Fletcher',
+                                        'screen_name' => 'FletchMK64',
+                                        'profile_sidebar_fill_color' => 'DDEEF6',
+                                        'profile_text_color' => '333333',
+                                        'profile_use_background_image' => $VAR1->{'statuses'}[0]{'user'}{'profile_use_background_image'},
+                                        'time_zone' => undef,
+                                        'id_str' => '480747404',
+                                        'created_at' => 'Wed Feb 01 21:08:30 +0000 2012',
+                                        'description' => 'Dad of 3 girls (including twins).  Chess and water polo player.  Actuary and longevity consultant.  Views are my own.  Chess blog at:',
+                                        'lang' => 'en',
+                                        'follow_request_sent' => undef,
+                                        'location' => '',
+                                        'profile_background_color' => '709397',
+                                        'default_profile' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'url' => 'http://t.co/N1u5JubXlQ',
+                                        'notifications' => undef,
+                                        'favourites_count' => 128,
+                                        'profile_link_color' => '00A0B0',
+                                        'utc_offset' => undef,
+                                        'listed_count' => 4,
+                                        'statuses_count' => 1907,
+                                        'profile_sidebar_border_color' => 'FFFFFF',
+                                        'profile_image_url' => 'http://pbs.twimg.com/profile_images/2365121382/ysxyyy8b88tn8xcq3dzk_normal.jpeg',
+                                        'profile_banner_url' => 'https://pbs.twimg.com/profile_banners/480747404/1354999709',
+                                        'id' => 480747404,
+                                        'is_translation_enabled' => $VAR1->{'statuses'}[0]{'retweeted'},
+                                        'friends_count' => 274,
+                                        'entities' => {
+                                                        'url' => {
+                                                                   'urls' => [
+                                                                               {
+                                                                                 'expanded_url' => 'http://learnfromtheamateurs.blogspot.co.uk/',
+                                                                                 'indices' => [
+                                                                                                0,
+                                                                                                22
+                                                                                              ],
+                                                                                 'url' => 'http://t.co/N1u5JubXlQ',
+                                                                                 'display_url' => 'learnfromtheamateurs.blogspot.co.uk'
+                                                                               }
+                                                                             ]
+                                                                 },
+                                                        'description' => {
+                                                                           'urls' => []
+                                                                         }
+                                                      },
+                                        'following' => undef,
+                                        'default_profile_image' => $VAR1->{'statuses'}[0]{'retweeted'}
+                                      },
+                            'contributors' => undef,
+                            'text' => '@Berlin_Endgame 
+Keres-Botvinnik 1948 round 5 
+http://t.co/Zkyx0xxQFV
+Reshevsky-Smyslov 1948 round 16 
+http://t.co/uAAKIicJCM
+#wcpawns',
+                            'truncated' => $VAR1->{'statuses'}[0]{'retweeted'},
+                            'entities' => {
+                                            'symbols' => [],
+                                            'urls' => [
+                                                        {
+                                                          'url' => 'http://t.co/Zkyx0xxQFV',
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}",
+                                                          'indices' => [
+                                                                         47,
+                                                                         69
+                                                                       ],
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1032181'
+                                                        },
+                                                        {
+                                                          'indices' => [
+                                                                         103,
+                                                                         125
+                                                                       ],
+                                                          'expanded_url' => 'http://www.chessgames.com/perl/chessgame?gid=1125563',
+                                                          'display_url' => "chessgames.com/perl/chessgame\x{2026}",
+                                                          'url' => 'http://t.co/uAAKIicJCM'
+                                                        }
+                                                      ],
+                                            'hashtags' => [
+                                                            {
+                                                              'text' => 'wcpawns',
+                                                              'indices' => [
+                                                                             126,
+                                                                             134
+                                                                           ]
+                                                            }
+                                                          ],
+                                            'user_mentions' => [
+                                                                 {
+                                                                   'id' => 321939808,
+                                                                   'screen_name' => 'Berlin_Endgame',
+                                                                   'id_str' => '321939808',
+                                                                   'name' => 'Jonathan Bryant',
+                                                                   'indices' => [
+                                                                                  0,
+                                                                                  15
+                                                                                ]
+                                                                 }
+                                                               ]
+                                          },
+                            'place' => undef,
+                            'lang' => 'sk',
+                            'retweeted' => $VAR1->{'statuses'}[0]{'retweeted'}
+                          }
+                        ]
+        };
+]

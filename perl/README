@@ -1,0 +1,38 @@
+Twitter application settings:
+
+Application Settings
+
+Your application's Consumer Key and Secret are used to authenticate requests to the Twitter Platform.
+
+
+Access level Read-only (modify app permissions)  
+
+Consumer Key (API Key) aHTFjoHB1CpR7jLHNnmvxg90e (manage keys and access tokens)  
+
+Callback URL None 
+
+Sign in with Twitter No 
+
+App-only authentication https://api.twitter.com/oauth2/token 
+
+Request token URL https://api.twitter.com/oauth/request_token 
+
+Authorize URL https://api.twitter.com/oauth/authorize 
+
+Access token URL https://api.twitter.com/oauth/access_token
+
+
+Auth Settings
+
+
+Consumer key: *
+
+aHTFjoHB1CpR7jLHNnmvxg90e
+
+Consumer secret: *
+
+VQiwpr7YKXYGVFhHM1risNIl7Hk1DgMkvuiuYo1Finsq6FS3we
+
+Remember this should not be shared.OAuth Settings
+
+
